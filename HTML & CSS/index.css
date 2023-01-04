@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Navbar coding */
+
+
+nav {
+    position: sticky !important;
+    top: 0;
+    z-index: 9999;
+    box-shadow: 0px 0px 20px;
+}
+
+.navbar-brand {
+    font-weight: bold !important;
+    font-size: 22px !important;
+}
+
+.btn {
+    width: 15%;
+    background-color: #ffa310 !important;
+    font-weight: bold !important;
+}
+
+
+/* Main Conatiner coding */
+
+.main-box {
+    background-color: #2d3846;
+    /* clip-path: polygon(0 0, 100% 0, 100% 30%, 100% 63%, 88% 85%, 22% 84%, 0 68%, 0% 30%); */
+    max-height: 400px;
+    height: 350px;
+    color: whitesmoke;
+    border-bottom-left-radius: 30% 100px;
+    border-bottom-right-radius: 20% 60px;
+}
+
+.main-box .first-box {
+    margin-left: 170px;
+}
+
+.star {
+    font-weight: bold;
+    color: #ffa310;
+    z-index: 10;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -22px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    font-size: 20px;
+}
+
+.star-img {
+    color: #ffa310;
+}
+
+
+/* Content box coding */
+
+.content-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pro-box {
+    background-color: #000a23;
+    max-height: 100px;
+    height: 200px;
+    width:800px;
+    z-index: 88;
+    color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #000a23;
+    position: absolute;
+    padding: 10px;
+}
+
+.pro-box .pro {
+    background-color: #ffa310;
+    border-radius: 10%;
+    margin-top: 10px;
+    color: #000a23;
+    padding: 5px;
+}
+
+.pro-box .code-img {
+    position: absolute;
+    top: 10px;
+    left: 350px;
+    z-index: -100000;
+    border-radius: 10%;
+}
+
+.pro-box .start-btn {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+}
+
+
+/* Courses section coding */
+
+.courses-prog {
+    background-color: whitesmoke;
+    width: 100%;
+    max-height: 100vh;
+    /* height: 400px; */
+    /* margin-left: 150px; */
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 10px;
+}
+.courses-content{
+    display: flex;
+    /* padding: 3px; */
+}
+
+.courses-content:hover {
+    background-color: rgba(127, 255, 212, 0.363);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+footer{
+    margin-top: 50px;
+    background-color: black;
+    padding: 80px 150px;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+footer ul li:hover {
+    color: #ffa310;
+}
+
+.card-img-top{
+     height: 250px;
+}
+sup{
+    color: red;
+}
+.batch{
+    display: flex; 
+    margin: 5px;
+}
+.social{
+    display: flex; 
+    color: grey; 
+    justify-content:space-between; 
+    font-size:1.5rem; 
+    margin-top:30px;
+}
+
+.logo-box {
+    background-color: #000a23 !important;
+} 
+
+.logo-hover:hover {
+    color: #ffa310;
+}
