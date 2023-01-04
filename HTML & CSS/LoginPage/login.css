@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f5f7;
+}
+
+#form {
+    padding: 10px;
+}
+
+.header {
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 400px !important;
+}
