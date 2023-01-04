@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Make payment</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="./script/index.js" defer></script>
+</head>
+
+<body class="bg-[#F0F0F0] flex flex-wrap justify-between h-[100vh]">
+  <header class=" bg-[#483EFF] flex flex-wrap items-center justify-between w-[100vw] max-h-[100px] 3xl:text-2xl">
+    <div class="CONTENT container mx-auto flex items-center justify-between text-white">
+      <h2 class="LOGO w-[3vw] font-bold">LOGO</h2>
+      <nav class="NAVBAR">
+        <ul class="ml-5 flex justify-between space-x-4 lg:space-x-9">
+          <li>Home</li>
+          <li>Services</li>
+          <li>Contact Us</li>
+        </ul>
+      </nav>
+      <div class="profile 3xl:text-2xl">Shubham</div>
+    </div>
+  </header>
+  <main class="container mx-auto my-8 flex justify-center items-center h-[70vh] 3xl:text-2xl">
+    <div class="CARD flex w-[70%] h-[100%] bg-white rounded-lg justify-evenly items-center px-2">
+      <div class="SIDEBAR rounded-lg bg-[url('/images/bg-sidebar-desktop.svg')] 3xl:bg-[url('/images/bg-sidebar-2k.svg')] w-[25%] h-[90%]
+              flex items-center flex-col text-white">
+        <div class="STEPS mt-6 h-[310px] flex flex-col space-y-4">
+          <div class="STEPONE cursor-pointer grid grid-cols-2 w-44">
+            <div
+              class="ONE row-span-2 bg-light-blue w-8 h-8 rounded-circle pl-[11px] pt-[3px] self-center text-marine-blue font-medium">
+              1
+            </div>
+            <p class="STEP row-span-1 text-cool-gray text-[14px]">Step one</p>
+            <h2 class="STEPDESC row-span-1 ">Your Info</h2>
+          </div>
+
+          <div class="STEPTWO cursor-pointer grid grid-cols-2 w-44 ">
+            <div class="Two row-span-2 border border-light-blue w-8 h-8 rounded-circle self-center pl-[11px] pt-[3px]">
+              2
+            </div>
+            <p class="STEP row-span-1 text-cool-gray text-[14px]">Step Two</p>
+            <h2 class="STEPDESC row-span-1">Select your plan</h2>
+          </div>
+
+          <div class="STEPTHREE cursor-pointer grid grid-cols-2 w-44">
+            <div
+              class="THREE row-span-2 border border-light-blue  w-8 h-8 rounded-circle self-center pl-[11px] pt-[3px]">
+              3</div>
+            <p class="STEP row-span-1 text-cool-gray text-[14px]">Step Three</p>
+            <h2 class="STEPDESC row-span-1">ADD-ONS</h2>
+          </div>
+
+          <div class="STEPFOUR cursor-pointer grid grid-cols-2 w-44">
+            <div class="FOUR row-span-2 border border-light-blue w-8 h-8 rounded-circle self-center pl-[11px] pt-[3px]">
+              4</div>
+            <p class="STEP row-span-1 text-cool-gray text-[14px]">Step four</p>
+            <h2 class="STEPDESC row-span-1">Summary</h2>
+          </div>
+        </div>
+      </div>
+
+      <!-- Form -->
+
+      <div class="FORMCONTAINER h-[90%] w-[60%] 3xl:text-2xl">
+        <div class="CONTAINER h-[100%] flex flex-col mt-6 space-y-6">
+
+          <!-- Personal info -->
+          <div class="FORMTITLE">
+            <h1 class="text-marine-blue font-bold">Personal Info</h1>
+            <p class="text-cool-gray">Please provide your name, email address and phone number</p>
+          </div>
+          <form method="post" class="grid gap-3" id="personalInfoForm">
+            <!-- First input -->
+            <label for="name" class="text-marine-blue">Name</label>
+            <input class="border rounded-md h-8 px-4" type="text" name="name" placeholder="eg: Stephen King" />
+
+            <!-- Second input -->
+            <label for="email" class="text-marine-blue">Email Address</label>
+            <input class="EMAIL border rounded-md h-8 px-4" type="email" name="email" id="email"
+              placeholder="eg: stephenking@gmail.com" />
+
+            <!-- Third input -->
+            <label for="phone" class="text-marine-blue">Phone number</label>
+            <input id="phone" class="border rounded-md h-8 px-4" type="tel" name="phone"
+              placeholder="eg: +91 9023526378" id="phone" />
+
+            <!-- submit button -->
+            <button type="submit"
+              class="bg-marine-blue h-10 text-white font-medium rounded-lg w-32 justify-self-end mt-8">Next
+              step</button>
+          </form>
+
+          <!--  -->
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <footer class="flex justify-evenly items-center text-white bg-footer 3xl:bg-footer-2k w-full 3xl:text-2xl">
+    <div class="LEGAL">
+      <ul>
+        <li>Terms & conditions</li>
+        <li>Copy write</li>
+      </ul>
+    </div>
+    <div class="SOCIALS">
+      <ul>
+        <li>Twitter</li>
+        <li>Instagram</li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
