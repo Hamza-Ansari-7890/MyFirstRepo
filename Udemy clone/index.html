@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--Script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!--CSS-->
+
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Udemy clone</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light color=#fff fixed-top bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <img src="./img/logo.png" alt="udemy" width="90" height="35">
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            categories
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Development</a></li>
+                            <li><a class="dropdown-item" href="#">Marketing</a></li>
+                            <li><a class="dropdown-item" href="#">Design</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                    <form class="d-flex">
+                        <input class="form-control me-2 rounded-5" id="search" type="search"
+                            placeholder="Search" aria-label="Search">
+                    </form>
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#">Udemy Business</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Teach on Udemy</a></li>
+                    </ul>
+
+
+
+
+            </div>
+            <button type="button" class="btn btn-outline-dark"><a href="login.html" class="nav-link">Login</a></button>&nbsp;&nbsp;&nbsp;
+            <button type="button" class="btn btn-dark">SignUp</button>
+
+        </div>
+        </nav>
+    </header>
+
+    <!-------------------------------------------------------------------------------------------------------------------->
+    <div id="carouselExampleControls" class="carousel slide mt-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/Carousel1.png" class="d-block w-100" alt="1">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/Carousel2.png" class="d-block w-100" alt="2">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-------------------------------------------------------------------------------------------------------------------->
+    <div class="container mt-5">
+        <h3 style="margin-bottom:10px;">Students are viewing</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card " >
+                    <img src="./img/c1.png" class="card-img-top" alt="js" id="card1">
+                    <div class="card-body">
+                        <h5 class="card-title">The Complete 2023 Web Development Bootcamp</h5>
+                        <p class="card-text">Dr. Angela Yu</p>
+                        <img src="./img/r1.png" class="card-img-top" alt="rating" id="rating">
+                        <p class="card-text">&#8377 330 &nbsp; &nbsp;<strike> &#8377 3000</strike></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./img/c1.png" class="card-img-top" alt="js" style="height: 160px;">
+                    <div class="card-body">
+                        <h5 class="card-title">The Complete 2023 Web Development Bootcamp</h5>
+                        <p class="card-text">Dr. Angela Yu</p>
+                        <img src="./img/r1.png" class="card-img-top" alt="rating" id="rating">
+                        <p class="card-text">&#8377 330 &nbsp; &nbsp;<strike> &#8377 3000</strike></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------------------------------------------------------------------------------------------->
+    <div class="container mt-5">
+        <h3 style="margin-bottom:30px;">Top Categories</h3>
+        <div class="topcategories">
+            <div class="row">
+                <div class="col">
+                    <div class="box">
+                        <img src="./img/box1.png" class="card-img-top img-hover courses" alt="js"><br>
+                        <h5 class="card-title name" style="margin-top:10px;">Design</h5>
+                    </div>
+                </div>
+                <div class="col">
+    
+                    <div class="box">
+                        <img src="./img/box2.PNG" class="card-img-top img-hover courses" alt="js"><br>
+                        <h5 class="card-title" style="margin-top:10px;">Development</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box">
+                        <img src="./img/box3.png" class="card-img-top img-hover courses" alt="js" ><br>
+                        <h5 class="card-title" style="margin-top:10px;">Marketing</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box">
+                        <img src="./img/box4.png" class="card-img-top img-hover courses" alt="js"><br>
+                        <h5 class="card-title" style="margin-top:10px;">IT & Software</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col">
+                    <div class="box">
+                        <img src="./img/box5.PNG" class="card-img-top img-hover courses" alt="js" ><br>
+                        <h5 class="card-title" style="margin-top:10px;">Personal Development</h5>
+                    </div>
+    
+                </div>
+                <div class="col">
+                    <div class="box">
+                        <img src="./img/box6.PNG" class="card-img-top img-hover courses" alt="js" ><br>
+                        <h5 class="card-title" style="margin-top:10px;">Business</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box">
+                        <img src="./img/box7.PNG" class="card-img-top img-hover courses" alt="js" ><br>
+                        <h5 class="card-title" style="margin-top:10px;">Photography</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box">
+                        <img src="./img/box8.PNG" class="card-img-top img-hover courses" alt="js" ><br>
+                        <h5 class="card-title" style="margin-top:10px;">Music</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-------------------------------------------------------------------------------------------------------------------->
+    <div style="margin-top: 40px;">
+        <img src="./img/student.png" class="teams" alt="progress">
+
+    </div>
+    <!-------------------------------------------------------------------------------------------------------------------->
+    <div class="container mt-5">
+        
+<div class="row featurette">
+    <div class="col-md-7">
+        <div class="flex-box">
+            <div class="flex-holder">
+                <h3>Become an instructor</h3>
+                <p>Instructors from around the world teach millions<br> of students on Udemy.<br>
+                    We provide the tools and skills to teach what you love.
+                </p>
+                <button type="button" class="btn btn-dark">Start teaching today</button>
+            </div>
+        </div>
+        
+    </div>
+    <div class="col-md-5">
+        <img src="./img/instuctor.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" alt="js">
+
+    </div>
+  </div>
+       
+    </div>
+
+    <!-------------------------------------------------------------------------------------------------------------------->
+    <div>
+        <img src="./img/teams.PNG" class="teams" alt="progress">
+
+    </div>
+
+    <!-------------------------------------------------------------------------------------------------------------------->
+
+    <div class="container mt-5">
+        
+        <div class="row featurette">
+            <div class="col-md-7 order-md-1">
+                <div class="flex-box">
+                    <div class="flex-holder">
+                        <h3>Udemy Business</h3>
+            <p>Get unlimited access to 19,000+ of Udemy’s top<br> courses for your team.<br>
+                Learn and improve skills across business, tech,<br> design, and more.
+            </p>
+            <button type="button" class="btn btn-dark">Get Udemy Business</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-md-5 order-md-2">
+                <img src="./img/bussiness.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" alt="js">
+        
+            </div>
+          </div>
+               
+            </div>
+
+    <!-------------------------------------------------------------------------------------------------------------------->
+    <footer>
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col">
+                    <ul class="ul">
+                        <li class="nav-link">Udemy bussiness</li>
+                        <li class="nav-link">Teach on Udemy</li>
+                        <li class="nav-link">Get the app</li>
+                        <li class="nav-link">About us</li>
+                        <li class="nav-link">Contact us</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="ul">
+                        <li class="nav-link">Careers</li>
+                        <li class="nav-link">Blog</li>
+                        <li class="nav-link">Help and Support</li>
+                        <li class="nav-link">Affiliate</li>
+                        <li class="nav-link">Investors</li>
+        
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="ul">
+                        <li class="nav-link">Teams</li>
+                        <li class="nav-link">Privacy policy</li>
+                        <li class="nav-link">Cookies setting</li>
+                        <li class="nav-link">Sitemap</li>
+                        <li class="nav-link">Accessiblity</li>
+        
+                    </ul>
+                </div>
+            </div>
+            
+            
+            
+
+        </div>
+        <div class="container">
+            <div>
+                <img src="./img/ublack1.png" alt="udemy" class="ublack">
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
