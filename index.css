@@ -1,0 +1,112 @@
+nav{
+   box-shadow: 0px 0px 5px 0px rgb(137, 133, 133);
+   position: sticky !important;
+   top: 0;
+   z-index: 1;
+   background-color: white;
+}
+.logo{
+    margin-left:40px;
+    height: 60px;
+    cursor: pointer;
+}
+nav ul{
+    
+    justify-content: center;
+    align-items: center; 
+    flex-grow: 2;
+}
+nav ul li{
+    font-weight: bold;
+    margin: 0px 9px;
+}
+nav ul li :hover ul{
+    border-bottom: 10px solid red;
+}
+.search-bar{
+    border: 1px solid rgb(231, 224, 224); 
+    border-radius:10px; 
+    padding:5px; 
+    background:rgb(231, 224, 224);
+}
+.search-bar i{
+    padding:0px 8px;
+}
+.search-bar input{
+    width: 440px;
+    height: 30px;
+    border: hidden;
+    background:rgb(231, 224, 224);
+}
+.search-bar input:focus{
+    outline: none;
+}
+.front-img{
+    margin: 40px 0px;
+    height: 450px;
+    width: 1519px;
+}
+section h1{
+    margin: 60px 50px;
+}
+footer{
+    margin-top: 50px;
+    background-color: rgba(205, 196, 196, 0.123);
+    padding: 80px 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-img-top{
+     height: 250px;
+}
+sup{
+    color: red;
+}
+.batch{
+    display: flex; 
+    margin: 5px;
+}
+.social{
+    display: flex; 
+    color: grey; 
+    justify-content:space-between; 
+    font-size:1.5rem; 
+    margin-top:30px;
+}
+.drop-down{
+    position: absolute;
+    right: 50px;
+    padding: 15px;
+    font-size: medium;
+    width: 320px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 4px rgb(211, 203, 203);
+    display: none;
+}
+.drop-down li{
+    font-weight: normal;
+    text-align: left;
+}
+.drop-down a{
+    text-decoration: none;
+}
+.navbar-nav li:hover .drop-down{
+    display: inline-block;
+}
+.li-heading{
+    font-weight: bold;
+}
+.point{
+    position: relative;
+    bottom: 23px;
+    margin: auto;
+}
+.button{
+    color: red;
+    font-weight: bolder;
+    padding: 7px 15px;
+}
+.button:hover{
+    border: 2px solid red;
+}
